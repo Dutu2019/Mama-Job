@@ -1,0 +1,52 @@
+:root {
+  --bg-color: rgba(0, 0, 0, 0.8);
+  --text-color: rgba(255, 255, 255, 1);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 2rem;
+  width: fit-content;
+  padding: 2rem;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: fit-content;
+  padding-top: 10%;
+  margin: auto;
+  scale: 1.2;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+button[type="submit"] {
+  height: fit-content;
+  padding: 1rem;
+  margin: auto;
+  font-size: 1rem;
+  color: var(--text-color);
+  background-color: transparent;
+  border: 2px solid var(--text-color);
+  border-radius: 20px;
+}
